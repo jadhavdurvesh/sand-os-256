@@ -29,6 +29,10 @@ Names are provisional project vocabulary, not claims of trademark uniqueness.
 
 The initial scalar register target is 256 bits. Pointer width, virtual address width, physical address width, load/store width, and instruction encoding width are independent design decisions. A 256-bit register does not imply that the machine can address or physically contain 2^256 bytes of memory.
 
+## SAND Universal Architecture Foundation
+
+All architectures in the SAND family follow the shared [SAND Universal Architecture Foundation (SUAF)](docs/00-sand-universal-architecture-foundation.md). It establishes common engineering principles and terminology while preserving independent instruction sets, register models, memory contracts, execution semantics, and ABIs.
+
 ## Documentation
 
 The [docs directory](docs/) contains the architecture specification roadmap, including register design, numeric formats, ISA, memory, addressing, execution, privilege, boot, emulator, toolchain, ABI, kernel, capabilities, verification, and decisions.
